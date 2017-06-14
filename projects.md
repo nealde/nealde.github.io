@@ -24,6 +24,10 @@ I'm creating an organized reference that goes through chapters of Bard, summariz
 
 Once I find a way, it will also include interactive graphs made in python that can have graphs which update in real time and can offer an unprecedented intuition about how the parameters interact to cause the resulting output and are an exceptional learning tool.
 
+See the [Bard Github](https://github.com/nealde/Notes-on-Bard) for ipython notebooks containing interactive plots and code for generating the plots.
+
+[Bard Chapter One - Introduction](https://nealde.github.io/BardChapter1-Introduction/)
+
 ### Contact me
 
 [demo-email@uw.edu](mailto:email@domain.com)
