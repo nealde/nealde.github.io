@@ -117,7 +117,7 @@ The function of a half-cell is independent of galvanic or eletrolytic status.
 
 The equilibrium potential is an important reference point of the system.  
 * Cell potential changing from equilibrium is called *polarization*
-* Extent of polarization is measured by overpotential $$\eta = E-E_{eq}$$
+* Extent of polarization is measured by overpotential \\(\eta = E-E_{eq})\\
 ![Figure 1.3.5]({{ site.baseurl }}/images/CH1/fig_1_3_5.png)  
 
 ##### Factors affecting electrode reaction rate and current
