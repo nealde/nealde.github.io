@@ -27,8 +27,8 @@ title: Chapter 1 - Introduction
 ![Figure 1.2.3]({{ site.baseurl }}/images/CH1/fig_1_2_3.png)
 ##### Some Equations:
 **Voltage Step**   
-Response current: <div> $$i = \frac{E}{R_s}e^{(-t/(R_sC_d))}$$ </div>
-Charge stored: <div> $$q = EC_d(1-e^{(-t/(R_sC_d))})$$ </div>
+Response current: $$ i = \frac{E}{R_s}e^{(-t/(R_sC_d))} $$
+Charge stored: $$ q = EC_d(1-e^{(-t/(R_sC_d))}) $$
 
 
 ### Equivalent Linear Circuits
