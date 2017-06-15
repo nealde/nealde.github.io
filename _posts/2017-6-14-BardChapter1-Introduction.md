@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Chapter 1 - Introduction
+mathjax: true
 ---
 
 ### Requirements 
