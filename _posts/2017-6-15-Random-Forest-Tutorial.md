@@ -302,7 +302,6 @@ Well, their train size was set at 400, and ours was 450, so the nature of allowi
 Don't worry, here they are.  Because our Y data is a pair of points, we may be limited in which SK-Learn regressors we can use.  Among ones we can are:
 * LinearRegressor
 * ExtraTreesRegressor
-* RandomForestRegressor
 
 However, we don't want to just have more one-off examples, we want to understand how to acquire these ourselves!  So, this is the process:
 * Learn the name of the regressor you want
