@@ -234,7 +234,7 @@ Array: [[5.235]]
 
 SK-Learn will throw an error unless we ask it to predict an array, no matter how few points we have. 
 
-However, calling `X_test[0]` will give a vector, which can be turned into an array by calling:  `X_test[0].reshape(1,-1)`, where (1 represents the desired array number of rows, and -1) represents that we will let numpy figure out how long the vector should be.
+However, calling `X_test[0]` will give a vector, which can be turned into an array by calling:  `X_test[0].reshape(1,-1)`, where `(1` represents the desired array number of rows, and `-1)` represents that we will let numpy figure out how long the vector should be.
 
 
 ```python
