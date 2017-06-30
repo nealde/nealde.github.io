@@ -6,9 +6,7 @@ title: Random Forest Regression Tutorial
 
 
 
-# Comparing random forests and the multi-output meta estimator
-
-
+### Comparing random forests and the multi-output meta estimator
 An example to compare multi-output regression with random forest and
 the **multioutput.MultiOutputRegressor** meta-estimator.
 
