@@ -10,9 +10,6 @@ Links to my various projects:
 
 I made an electric bike and use it as my daily commuter, images and detailed build log to come.
 
-### Github Workshops
-
-[Workshop one](https://nealde.github.io/Workshop-2/)
 
 ### Julia
 
@@ -28,6 +25,8 @@ See the [Bard Github](https://github.com/nealde/Notes-on-Bard) for ipython noteb
 
 [Bard Chapter One - Introduction](https://nealde.github.io/BardChapter1-Introduction/)
 
+Newman Chapter One - coming soon!
+
 ### Contact me
 
-[demo-email@uw.edu](mailto:email@domain.com)
+[nealde@uw.edu](mailto:nealde@uw.edu)
