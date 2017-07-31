@@ -5,7 +5,7 @@ title: 1080 Ti Liquid Cooling with Kraken G10
 
 In this post, I'll be walking you through the process of tearing down an MSI Armor 1080 Ti, removing the extremely underpowered heat sink, and replacing it with a Kraken x40 using a Kraken G10 adapter.
 
-## Initial temps and overclock: edit 6
+## Initial temps and overclock:
 ![png]({{ site.baseurl }}/images/1080ti/initial.png)
 Initially, the highest stable clock was 2012 MHz, which quickly throttled to 1924 MHz due to high thermals.  The peak temperature was 84 C and the fans were screaming at 89%.  This is apparently fairly typical is the MSI Armor variant of the card, which [uses the same heat sink as a GTX 1070, but has the same custom PCB as an MSI Gaming X.](https://www.youtube.com/watch?v=BNQtfNFCWa8)
 
