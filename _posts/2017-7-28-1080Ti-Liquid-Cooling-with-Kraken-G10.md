@@ -7,7 +7,7 @@ In this post, I'll be walking you through the process of tearing down an MSI Arm
 
 ## Initial temps and overclock:
 ![png]({{ site.baseurl }}/images/tut1/output_3_1.png)
-![Initial Temps]({{ site.baseurl }}/images/1080ti/finals.png)
+![png]({{ site.baseurl }}/images/1080ti/initial.png)
 Initially, the highest stable clock was 2012 MHz, which quickly throttled to 1924 MHz due to high thermals.  The peak temperature was 84 C and the fans were screaming at 89%.  This is apparently fairly typical is the MSI Armor variant of the card, which [uses the same heat sink as a GTX 1070 but has the custom PCB of an MSI Gaming X.](https://www.youtube.com/watch?v=BNQtfNFCWa8)
 
 Let's look at the results first: after changing the cooler to the Kraken x40, the new temperatures peak at 53 C and the core clock of 2012 is maintained throughout the benchmark. Excellent!  As noted by others, [the large thermal mass of the liquid can give artificially low temperatures under short load conditions](), and the steady-state temperature seems to be around 58 C while mining at a constant 60% power draw.  However, the system is much quieter and much less sensitive to the seemingly extremely poor airflow in my case, which is awesome.
