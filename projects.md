@@ -34,10 +34,14 @@ Newman Chapter One - coming soon!
 * Carbon fiber electric bike battery holder
 * [Google flights historical data scraper]()
 * Home automation
+* Arduino Coffee Caffeine Randomizer
+* LiPo Powered Spot Welder
+* Electric Foil Board
 * Raspi-based decaf / caffeinated coffee randomizer
 * Headlight / tail lights for bike
 * [1080Ti liquid cooling with Kraken g10](https://nealde.github.io/1080Ti-Liquid-Cooling-with-Kraken-G10/)
 * Engineering analysis of direct solar water heating
+* Running Zelda BoTW in CEMU Wii U Emulator
 
 ### Contact me
 
