@@ -10,9 +10,6 @@ Links to my various projects:
 
 I made an electric bike and use it as my daily commuter, images and detailed build log to come.
 
-### Github Workshops
-
-[Workshop one](https://nealde.github.io/Workshop-2/)
 
 ### Julia
 
@@ -28,6 +25,24 @@ See the [Bard Github](https://github.com/nealde/Notes-on-Bard) for ipython noteb
 
 [Bard Chapter One - Introduction](https://nealde.github.io/BardChapter1-Introduction/)
 
+Newman Chapter One - coming soon!
+
+### A list of potential projects (in no particular order) are as follows:
+* Electric wake board
+* Mini-ITX computer rebuild
+* Vertical hanging garden
+* Carbon fiber electric bike battery holder
+* [Google flights historical data scraper]()
+* Home automation
+* Arduino Coffee Caffeine Randomizer
+* LiPo Powered Spot Welder
+* Electric Foil Board
+* Raspi-based decaf / caffeinated coffee randomizer
+* Headlight / tail lights for bike
+* [1080Ti liquid cooling with Kraken g10](https://nealde.github.io/1080Ti-Liquid-Cooling-with-Kraken-G10/)
+* Engineering analysis of direct solar water heating
+* Running Zelda BoTW in CEMU Wii U Emulator
+
 ### Contact me
 
-[demo-email@uw.edu](mailto:email@domain.com)
+[nealde@uw.edu](mailto:nealde@uw.edu)

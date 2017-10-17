@@ -3,19 +3,14 @@ layout: post
 title: Random Forest Regression Tutorial
 ---
 
-```python
-%matplotlib inline
-```
 
 
-# Comparing random forests and the multi-output meta estimator
 
-
+### Comparing random forests and the multi-output meta estimator
 An example to compare multi-output regression with random forest and
-the :ref:`multioutput.MultiOutputRegressor <multiclass>` meta-estimator.
+the **multioutput.MultiOutputRegressor** meta-estimator.
 
-This example illustrates the use of the
-:ref:`multioutput.MultiOutputRegressor <multiclass>` meta-estimator
+This example illustrates the use of the **multioutput.MultiOutputRegressor** meta-estimator
 to perform multi-output regression. A random forest regressor is used,
 which supports multi-output regression natively, so the results can be
 compared.
@@ -44,7 +39,7 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.multioutput import MultiOutputRegressor
-
+%matplotlib inline
 
 # Create a random dataset
 rng = np.random.RandomState(1)
@@ -89,9 +84,6 @@ plt.legend()
 plt.show()
 ```
 
-    Automatically created module for IPython interactive environment
-    
-
 
 ![png]({{ site.baseurl }}/images/tut1/output_3_1.png)
 
@@ -132,7 +124,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y,
 
 Randomizing the data in our own way is fairly simple as well:
 
-First, sort a random sample in range(0,length of X) whose total number is 3/4th of the length of X.  This results in a list of values.
+First, sort a random sample in `range(0,length of X)` whose total number is 3/4th of the length of X.  This results in a list of values.
 Numpy has this awesome functionality where you can give an array a list of integers and it will pull out just those values. For example:
 
 
@@ -188,9 +180,9 @@ This is the power of SK-Learn.  It makes creating a model and fitting it extreme
 
 Note that X_train and y_train do not need to be the same width (i.e. you can go from 5 "features" -> 1 target value, or from 3 features -> 15 target values) but they do need to have the same length (450 total samples for both).
 
-In order to fit the model, call ` model_name.fit(X_train, y_train)`
+In order to fit the model, call `model_name.fit(X_train, y_train)`
 
-To get a score for the model, call ` model_name.score(X_test, Y_test)`
+To get a score for the model, call `model_name.score(X_test, Y_test)`
 
 Knowing the training score is important for understanding how well the model understands the form of the data, but the really important bit is the test score - the score on data that the model hasn't seen.
 
@@ -240,7 +232,7 @@ Array: [[5.235]]
 
 SK-Learn will throw an error unless we ask it to predict an array, no matter how few points we have. 
 
-However, calling ` X_test[0]` will give a vector, which can be turned into an array by calling:  ` X_test[0].reshape(1,-1)`, where `(1` represents the desired array number of rows, and `-1)` represents that we will let numpy figure out how long the vector should be.
+However, calling `X_test[0]` will give a vector, which can be turned into an array by calling:  `X_test[0].reshape(1,-1)`, where `(1` represents the desired array number of rows, and `-1)` represents that we will let numpy figure out how long the vector should be.
 
 
 ```python
@@ -297,7 +289,7 @@ Wait, what happened between what we did and the original plot? The scores there 
 
 Well, their train size was set at 400, and ours was 450, so the nature of allowing the model to train on more data both decreases the variance of the test set as well as increases the likelihood that data in our test set are similar to data in our training set, which results in a higher score.
 
-# What about the other regressors you promised???
+# What about the other regressors?
 
 Don't worry, here they are.  Because our Y data is a pair of points, we may be limited in which SK-Learn regressors we can use.  Among ones we can are:
 * LinearRegressor
@@ -375,7 +367,7 @@ print("Training score: R^2 = %f, Test score: R^2 = %f" % (etr.score(X_train,y_tr
     Training score: R^2 = 1.000000, Test score: R^2 = 0.926087
     
 
-### A PERFECT TRAINING SCORE?!? WHAT GIVES??
+### A perfect training score? What gives!?
 Typically, unless Random Forests are given a *max_depth*, they will perfectly "memorize" **(read: OVERFIT)** the training data.  by setting a max_depth, we can potentially improve the test score while simultaneously reducing the training score:
 
 *Note:* it is important to have the *random_state* constant in order to ensure that the random forest would have otherwise been identical to the previous one if not for the changing hyperparameters.
@@ -567,6 +559,3 @@ plt.show()
 Today, we walked through an [example](http://scikit-learn.org/stable/auto_examples/ensemble/plot_random_forest_regression_multioutput.html#sphx-glr-auto-examples-ensemble-plot-random-forest-regression-multioutput-py) from SK-Learn and broke it down in order to understand how to apply it to other data sets.  We learned a little bit about hyperparmeters for Random Forests, how to apply similar regressors to the same problem, and some (but definitely not all) of the pitfalls to avoid when looking at new regressors, because some can only handle y-vectors of length one.  We demonstrated a work-around for this shortcoming, but without hyperparameter tuning, the results were sub-par.
 
 
-```python
-
-```
