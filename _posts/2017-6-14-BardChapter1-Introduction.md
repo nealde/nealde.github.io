@@ -3,6 +3,7 @@ layout: post
 title: Chapter 1 - Introduction
 mathjax: true
 ---
+{% include my_plot.html %}
 
 ### Requirements 
 ##### Necessary:
@@ -102,8 +103,6 @@ show(s, notebook_handle=True)
 # Create the sliders for the graphs
 interact(update, f=["step", "ramp", "triangle"], E=(0,3,0.05), Rs=(0.01,3,0.01), Cd=(0.01, 60, 0.1))
 ```
-
-{% include my_plot.html %}
 
 
 ### Chapter 1.3 <a id="chapter-3"></a>Faradaic Processes
