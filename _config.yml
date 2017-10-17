@@ -14,7 +14,7 @@ description: Chemical Engineering Graduate Student at the University of Washingt
 #
 # Flags below are optional
 #
-
+theme: jekyll-theme-slate
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
