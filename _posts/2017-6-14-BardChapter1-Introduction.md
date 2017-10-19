@@ -5,7 +5,7 @@ mathjax: true
 ---
 
 {% raw %}
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="https://lin-example.herokuapp.com/linear_example.html"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="https://lin-example.herokuapp.com/linear_example"></iframe>
 {% endraw %}
 
 
