@@ -4,9 +4,7 @@ title: Chapter 1 - Introduction
 mathjax: true
 ---
 
-{% raw %}
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="1200" height="300" src="https://lin-example.herokuapp.com/linear_example"></iframe>
-{% endraw %}
+{% include graph_1 %}
 
 
 ### Requirements 
