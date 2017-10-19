@@ -3,7 +3,7 @@ layout: post
 title: Chapter 1 - Introduction
 mathjax: true
 ---
-{% include https://lin-example.herokuapp.com/linear_example %}
+{% include https://lin-example.herokuapp.com/linear_example.html %}
 
 ### Requirements 
 ##### Necessary:
