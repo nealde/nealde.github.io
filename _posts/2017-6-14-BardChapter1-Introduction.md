@@ -4,7 +4,7 @@ title: Chapter 1 - Introduction
 mathjax: true
 ---
 
-{% include graph_1.html %}
+{% include graph_2.html %}
 
 
 ### Requirements 
