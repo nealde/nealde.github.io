@@ -1,4 +1,6 @@
 # HMFAYSAL OMEGA THEME
+blah blah blah
+
 
 Project name:	HMFAYSAL OMEGA THEME  
 Author:	Hossain Mohd Faysal  
