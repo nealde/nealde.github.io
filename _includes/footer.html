@@ -1,9 +1,28 @@
-<div class="container">
-  <footer>
-    <p class="text-muted credit">
-      &copy; {{ site.time | date: '%Y' }} {{ site.name }} &middot;
-      <a href="https://github.com/arnp/herring-cove"> Herring Cove for Jekyll </a>
-      {{ site.time }}
-    </p>
-  </footer>
-</div>
+<footer class="footer">
+    <div class="container">
+
+        <p class="text-center">
+            {{ site.title }} {{ site.time | date: '%Y' }} |
+            Powered by <a href="https://github.com/aksakalli/jekyll-doc-theme">Jekyll Doc Theme</a>
+        </p>
+        <!-- <p class="text-muted">Place sticky footer content here.</p> -->
+    </div>
+</footer>
+
+<script type="text/javascript">
+$("script[type='math/tex']").replaceWith(
+  function(){
+    var tex = $(this).text();
+    return "<span class=\"inline-equation\">" + 
+           katex.renderToString(tex) +
+           "</span>";
+});
+
+$("script[type='math/tex; mode=display']").replaceWith(
+  function(){
+    var tex = $(this).text();
+    return "<div class=\"equation\">" + 
+           katex.renderToString("\\displaystyle "+tex) +
+           "</div>";
+});
+</script>

@@ -1,39 +1,52 @@
 ---
-title: Herring Cove
+layout: default
 ---
-{% include showcase.html %}
-{% include greeting.html %}
 
-{% if site.posts != empty %}
-<div class="recent-posts">
-  <h1>Recent Posts</h1>
-  {% for post in site.posts limit: 3 %}
-    {% if forloop.first %}
-      {% assign add_class = 'most-recent' %}
-      {% capture fresh_tag %}
-        &nbsp;<span class="badge"><smaller>FRESH</smaller></span>
-      {% endcapture %}
-    {% endif %}
-    <ul class="homepage-posts {{ add_class }}">
-      <li>
-        <span>
-          <h4>
-            <a href="{{ site.baseurl }}/{{ post.url }}">
-              {{ post.title }}
-            </a>
-            {{ fresh_tag }}
-            <time class="pull-right">
-              {{ post.date | date_to_string | date: "%b %-d, %Y"  }}
-            </time>
-          </h4>
-        </span>
-      </li>
-    </ul>
-    {% assign add_class = '' %}
-    {% assign fresh_tag = '' %}
-  {% endfor %}
-  <ul>
-    <a href="{{ site.baseurl }}/list.html">View More...</a>
-  </ul>
+<div class="header-container jumbotron">
+    <div class="container">
+        <h1>Neal Dawson-Elli</h1>
+        <p>Graduate Student in the Chemical Engineering Department at the university of Washington</p>
+    </div>
 </div>
-{% endif %}
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="header-light regular-pad">Why have a website?</h2>
+            <blockquote>
+              <p>A website is an ideal medium to host information about my <a href="https://daringfireball.net/projects/markdown/">research</a>, 
+			  <a href="https://daringfireball.net/projects/markdown/">projects</a>, <a href="https://daringfireball.net/projects/markdown/">hobbies</a>, 
+			  and <a href="https://daringfireball.net/projects/markdown/">tutorials</a>.  Click the links to learn more.
+			  </p>
+            </blockquote>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="img/jekyll-dark.png" alt="" class="img-responsive">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Industry / Internships</h3>
+            <p>
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Research</h3>
+            <p></p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Tutorials</h3>
+            <p></p>
+        </div>
+    </div>
+
+
+</div>
