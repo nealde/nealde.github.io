@@ -1,14 +1,13 @@
 # Site settings
-title: Jekyll Doc Theme
-email: your-email@domain.com
+title: Home
+email: nealde@uw.edu
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
+  A blog and repository for research and project updates
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+#url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
+#git_address: https://github.com/aksakalli/jekyll-doc-theme
+#git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
@@ -49,6 +48,7 @@ defaults:
     sectionid: docs
     seo:
       type: "WebPage"
+      
 
 collections:
   docs:
