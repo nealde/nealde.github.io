@@ -12,13 +12,10 @@ git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
-bootwatch: slate
+bootwatch: paper
 
 # Build settings
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
-
 highlighter: rouge
 gems:
   - jekyll-feed

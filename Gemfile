@@ -4,14 +4,14 @@ ruby RUBY_VERSION
 gem "jekyll", "3.4.3"
 
 # to use GitHub Pages
-gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem 'jekyll-feed'
-   gem 'jekyll-sitemap'
-   gem 'jekyll-redirect-from'
-   gem 'jekyll-seo-tag'
+   gem "jekyll-feed"
+   gem "jekyll-sitemap"
+   gem "jekyll-redirect-from"
+   gem "jekyll-seo-tag"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
