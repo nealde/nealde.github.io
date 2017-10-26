@@ -23,7 +23,7 @@ install hassio once raspbian is installed: https://www.reddit.com/r/homeassistan
 ### 1. Installing Raspbian Lite
 
 To begin, download [Raspbian Lite](https://www.raspberrypi.org/downloads/raspbian/) as a .zip and extract it to a folder.
-![png]({{ site.baseurl }}/img/phhassio/raspbian.png)
+![png]({{ site.baseurl }}/img/phhassio/raspbian.PNG)
 
 Then, download and install [Etcher](https://etcher.io/) and image the .zip to the SD card following the instructions.
 
@@ -126,13 +126,13 @@ Once the installation finishes, we need to set the Raspi up as the DNS for our r
 
 Once that's done, we can go to an ad-riddled webpage, say [Yahoo](https://www.yahoo.com/), which has at least 2 ads right at the top:
 
-![png]({{ site.baseurl }}/img/phhassio/yahoo.png)
+![png]({{ site.baseurl }}/img/phhassio/yahoo.PNG)
 
 If yours doesn't have those ads, congratulations! It installed successfully!
 
 We can see Pi Hole's main page, and see how much traffic has been blocked, by going to `raspberry.local/admin`
 
-![png]({{ site.baseurl }}/img/phhassio/pihole_admin.png)
+![png]({{ site.baseurl }}/img/phhassio/pihole_admin.PNG
 
 ### 9. Customizing HassIO
 
