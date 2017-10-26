@@ -19,11 +19,11 @@ On windows, navitage to the [Git Bash Download Page](https://git-scm.com/downloa
 Follow the instructions for installation.  If you don't know what you're doing, I prefer to keep the settings to default, including
 **Use Git from Bash Only**, **OpenSSL Library**,  and **Checkout Windows-style, commit Unix-style line endings**, as well as 
 using **MinTTY**.
-![image1.png]({{ site.baseurl }}/img/jekyll_katex/git_bash_1.png)
+![image1.png]({{ site.baseurl }}/img/jekyll_katex/git_bash_1.PNG)
 
 ## Next Up, Find a Theme and Clone It
 Check out the [Jekyll themes](http://themes.jekyllrc.org/) and find one that you like.  Download it and extract it to a new folder.
-It should look something like this: ![image2]({{ site.baseurl }}/img/jekyll_katex/img2.png)
+It should look something like this: ![image2]({{ site.baseurl }}/img/jekyll_katex/img2.PNG)
 
 Note the presence of a Gemfile, with no extension, and a _config.yml file.
 
@@ -38,7 +38,7 @@ type the following into the command terminal:
 `gem install jekyll bundler` - this will install bundler, a gem that manages other Ruby gems
 `bundle install` - this will tell Ruby to parse the Gemfile and install any necessary gems.
 'bundle exec jekyll serve' - this will launch the site on a local server!  Look at the output of the command window, it will tell you where to point your browser.
-![img3]({{ site.baseurl }}/img/jekyll_katex/img3.png)
+![img3]({{ site.baseurl }}/img/jekyll_katex/img3.PNG)
 Unless you've changed it. 127.0.0.1 can be replaced by `localhost`.
 
 ## Get Katex to Work For Pretty Math
