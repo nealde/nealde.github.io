@@ -5,6 +5,8 @@ date: 2017-10-26 8:00:00
 author: Neal Dawson-Elli
 ---
 
+
+
 ## Steps:
 1. Install [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) with SSH enabled
 2. Find the Raspi on your network using a DHCP client table
