@@ -1,11 +1,12 @@
 - title: Research
   docs:
-  - home
-  - themes
-  - customization
+  - overview
 
-- title: Examples
+- title: Projects
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - phhassio
+  - cheatsheet2
+
+- title: Tutorials
+  docs:
+  - sklearnreg
