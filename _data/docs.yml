@@ -1,6 +1,8 @@
 - title: Research
   docs:
   - overview
+  - p2d
+  - paper1
 
 - title: Projects
   docs:
@@ -11,4 +13,5 @@
 - title: Tutorials
   docs:
   - sklearnreg
+  - gpages_tutorial
   - font-awesome
