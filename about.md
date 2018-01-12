@@ -21,8 +21,8 @@ Whenever I'm not working, I love (in no particular order):
  - playing soccer
  - lifting
  - running
- - tinkering,
- - prototyping. 
+ - tinkering
+ - prototyping
 
 As I get time, the projects list will be fleshed out more thoroughly.
 
