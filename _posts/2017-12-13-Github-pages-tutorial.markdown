@@ -20,7 +20,7 @@ select the "New Repository" button.
 
 Then, name your repository, as per the image below, and type whatever you'd like into the README:
 
-![image1](/assets/img/git_setup_2.PNG)
+![image1](img/gitpages/git_setup_2.PNG)
 
 Once your repository is created, make a new folder somewhere on your computer and clone the repository to it.
 This can be done using the following commands:
@@ -45,11 +45,11 @@ git push -u origin master
 Next, head on over to your Github Pages home page!
 If you're lucky, it'll look like this:
 
-![img_3](/assets/img/git_setup_3.PNG)
+![img_3](img/gitpages/git_setup_3.PNG)
 
 If you're not, it'll look like this:
 
-![img_4](/assets/img/git_setup_4.PNG)
+![img_4](img/gitpages/git_setup_4.PNG)
 
 Now, we're on to the final stage - modification and troubleshooting!
 
@@ -61,7 +61,7 @@ In order to fix the above error, we need to modify the file that controls a lot 
 In this instance, the problem is with `baseurl` - the default baseurl doesn't match up with the other files which are created
 by the jekyll engine.  To fix it, all we have to do is set the baseurl to "":
 
-![img_5](/assets/img/git_setup_5.PNG)
+![img_5](img/gitpages/git_setup_5.PNG)
 
 While we're in there, we might as well modify the name and title as well.  These may have different effects depending upon 
 their implementation, but generally the title changes the text at the top of the web page, located in the tab.
@@ -82,7 +82,7 @@ Next, we'd like to add a new blog post.
 
 The following represents the overall file structure for jekyll:
 
-![file_structure](/assets/img/git_setup_file_structure.PNG)
+![file_structure](img/gitpages/git_setup_file_structure.PNG)
 
 
 Most of these will vary depending upon the theme you choose, but I can give some hints here.
@@ -96,24 +96,24 @@ The thought process goes like this:
 
 The `index.html` doesn't seem to contain anything in particular:
 
-![img_6](/assets/img/git_setup_6.PNG)
+![img_6](img/gitpages/git_setup_6.PNG)
 
 Anywhere that you see `"{ blah blah }"`, that means there's something responsive there. That's how information is passed from `Markdown` files into `html` files.
 From this image, it looks like most of the `index.html` is spent hosting the first artivle and then calling Paginator.
 
 What about the `_layouts`? 
 
-![layouts](/assets/img/git_setup_layouts.PNG)
+![layouts](img/gitpages/git_setup_layouts.PNG)
 
 There are only 2 files - default and post.  I know it's not post, since that is the `html` file that makes the layout for each post. What about default?
 
-![img_7](/assets/img/git_setup_7.PNG)
+![img_7](img/gitpages/git_setup_7.PNG)
 #### Bingo!
 
 Inside default, I see some calls to include files. This means that the thing I want to change needs to be in the includes folder.  If the files are named rationally,
 it's most likely in the sidebar, since where I want to add it is a sidebar.
 
-![img_8](/assets/img/git_setup_8.PNG)
+![img_8](img/gitpages/git_setup_8.PNG)
 
 Here's the `sidebar.html` from the `_includes` folder. 
 
@@ -124,11 +124,11 @@ But I don't know how to put an image in `html`! I'm not a web developer!
 
 The line I added is there, right above the line that includes `Home`.  Here's the command:
 
-`<img src="{{site.baseurl}}/assets/img/face.jpg" alt="That's me!">`
+`<img src="{{site.baseurl}}img/gitpages/face.jpg" alt="That's me!">`
 
 And now my image appears where I want it! Lucky me!
 
-![img_10](/assets/img/git_setup_10.PNG)
+![img_10](img/gitpages/git_setup_10.PNG)
 
 But what if that's not good enough? I want a LinkedIn-style photo in a bubble!
 I hop on over to [Flexible Jekyll](https://github.com/artemsheludko/flexible-jekyll) because I see that he's figured it out, and I poke around in his files.
@@ -167,20 +167,20 @@ and by wrapping the image in the HTML in the expected named `div`s:
 ```
 <div class="about">
 	<div class="cover-author-image">
-		<a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/face.jpg" alt="That's me!"></a>
+		<a href="{{site.baseurl}}/"><img src="{{site.baseurl}}img/gitpages/face.jpg" alt="That's me!"></a>
 	</div>
 </div>
 ```
 
 I have managed to turn my photo into a potato-quality circle!!
 
-![img_11](/assets/img/git_setup_11.PNG)
+![img_11](img/gitpages/git_setup_11.PNG)
 
 Next, I make it bigger by reading what the text did and expanding `width` to 300px everywhere that I pasted it, and hope for the best.  
 That doesn't seem to work, so I change the `webkit-border-radius` to 90% and resize the image to be a square, as it seems to be
 scaling it asymmetrically. And it works!
 
-![img_12](/assets/img/git_setup_12.PNG)
+![img_12](img/gitpages/git_setup_12.PNG)
 
 One again, proving that you don't have to understand exactly how something works in order to implement it!
 
@@ -189,20 +189,20 @@ Additionally, I wanted to host a PDF of my resume on the About page.
 It turns out that `Markdown` doesnt let you do that - but, `html` does, and it's allowed in markdown! so:
 ```
 <div>
-<object data="https://ndawsonelli.github.io/assets/img/my_resume.pdf" type="application/pdf" >
-    <embed src="https://ndawsonelli.github.io/assets/img/my_resume.pdf">
-        This browser does not support PDFs. Please download the PDF to view it: <a href="https://ndawsonelli.github.io/assets/img/my_resume.pdf">Download PDF</a>.</p>
+<object data="https://ndawsonelli.github.ioimg/gitpages/my_resume.pdf" type="application/pdf" >
+    <embed src="https://ndawsonelli.github.ioimg/gitpages/my_resume.pdf">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="https://ndawsonelli.github.ioimg/gitpages/my_resume.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 </div>
 ```
 
-The above code snippet, along with a hard-coded reference to my pdf's location, allow me to host the file in my web page.  Updating the PDF file in `/assets/img` will also change the hosted file. Neat!
+The above code snippet, along with a hard-coded reference to my pdf's location, allow me to host the file in my web page.  Updating the PDF file in `img/gitpages` will also change the hosted file. Neat!
 
 ### Knowing When Something Failed
 Uh oh! I got a new email:
 
-![img_9](/assets/img/git_setup_9.PNG)
+![img_9](img/gitpages/git_setup_9.PNG)
 
 That means something went wrong in my previous build - it could be syntax, or it could be something else.  In my case, it was not omitting the `%` in `"{ blah blah }"` - 
 `Markdown` recognizes it as a legitimate command and throws an error.
