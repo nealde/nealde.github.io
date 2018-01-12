@@ -15,8 +15,16 @@ between these languages.  My machine learning packages include Sci-Kit Learn and
 
 ## Hobbies
 
-Whenever I'm not working, I love hiking, photography, playing soccer, lifting, running, tinkering, and prototyping.  As I get time, the 
-projects list will be fleshed out more thoroughly.
+Whenever I'm not working, I love (in no particular order):
+ - hiking
+ - photography
+ - playing soccer
+ - lifting
+ - running
+ - tinkering,
+ - prototyping. 
+
+As I get time, the projects list will be fleshed out more thoroughly.
 
 Here are some of my favorite photos I've taken in the past couple of years:
 ![pic1](/img/camera/seattle.jpg)![pic2](/img/camera/mountains.jpg)
