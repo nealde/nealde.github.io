@@ -33,8 +33,6 @@ As I get time, the projects list will be fleshed out more thoroughly.
   <li><a href="#silverpeak" data-toggle="tab">Silver Peak</a></li>
   <li><a href="#rainier" data-toggle="tab">Raininer</a></li>
   <li><a href="#cbay" data-toggle="tab">Chesepeake bay</a></li>
-    </ul>
-  </li>
 </ul>
 <div id="myTabContent" class="tab-content">
   <div class="tab-pane fade active in" id="home">
