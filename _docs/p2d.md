@@ -1,5 +1,4 @@
 ---
-layout: post
 title: P2D Model
 permalink: /docs/p2d/
 redirect_from: /docs/index.html

@@ -7,6 +7,7 @@
 - title: Projects
   docs:
   - phhassio
+  - ebike
   - cheatsheet2
   - 1080ti
 
@@ -14,4 +15,5 @@
   docs:
   - sklearnreg
   - gpages_tutorial
+  - laketray
   - font-awesome
