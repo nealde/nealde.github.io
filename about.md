@@ -19,7 +19,7 @@ Whenever I'm not working, I love hiking, photography, playing soccer, lifting, r
 projects list will be fleshed out more thoroughly.
 
 Here are some of my favorite photos I've taken in the past couple of years:
-![pic1](/img/camera_pics/seattle.jpg)![pic2](/img/camera_pics/mountains.jpg)
+![pic1](/img/camera/seattle.jpg)![pic2](/img/camera/mountains.jpg)
 
 ## Previous Industry Experience
 
