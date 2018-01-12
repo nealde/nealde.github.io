@@ -28,19 +28,6 @@ As I get time, the projects list will be fleshed out more thoroughly.
 
 #### Here are some of my favorite photos I've taken in the past couple of years:
 
-View of the Space Needle from (slightly East of) Kerry Park
-'''
-![pic1](/img/camera/seattle.jpg)
-
-View of Raininer from Silver Peak
-![pic2](/img/camera/mountains.jpg)
-
-View of Raininer from an airplane
-![pic3](/img/camera/rainier.jpg)
-
-Purple sunset in the Chesepeake Bay
-![pic4](/img/camera/boat.jpg)
-'''
 <ul class="nav nav-tabs">
   <li class="active"><a href="#home" data-toggle="tab">Seattle</a></li>
   <li><a href="#silverpeak" data-toggle="tab">Silver Peak</a></li>
@@ -51,19 +38,20 @@ Purple sunset in the Chesepeake Bay
 </ul>
 <div id="myTabContent" class="tab-content">
   <div class="tab-pane fade active in" id="home">
-  <img src="nealde.github.io/img/camera/seattle.jpg" alt="Seattle">
-    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+    <p>View of the Space Needle from (slightly East of) Kerry Park</p>
+    <img src="/img/camera/seattle.jpg" alt="Seattle">
   </div>
   <div class="tab-pane fade" id="silverpeak">
-  	![pic2](/img/camera/mountains.jpg)
-    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+    <p>View of Raininer from Silver Peak</p>
+  	<img src="/img/camera/mountains.jpg" alt="Mountain View">
   </div>
   <div class="tab-pane fade" id="rainier">
-    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
+    <p>View of Raininer from an airplane </p>
+	<img src="/img/camera/rainier.jpg" alt="Mountain View">
   </div>
   <div class="tab-pane fade" id="cbay">
+    <p>Purple sunset in the Chesepeake Bay </p>
   	<img src="/img/camera/boat.jpg" alt="Mountain View">
-    <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
   </div>
 </div>
 ## Previous Industry Experience
