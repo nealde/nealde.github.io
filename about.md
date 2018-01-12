@@ -49,19 +49,19 @@ My responsibilities here included the day-to-day operation and maintenance assoc
 the creation of ogranic LED light fixtures.  In addition to performing this function, I wrote several Excel VBA macros for both data analysis and payroll 
 that are in still in use today.  The code is well documented and has been maintained by myself and others since I left.
 
-### 03/13 - 08/13 Technician at Empire Precision plastics, Rochester, NY
+### 03/13 - 08/13 Technician at Empire Precision Plastics, Rochester, NY
 
 In this role, my main task was to manage other workers and oversee the production of injection molded pieces, including using ultrasonic welding.  In addition 
 to performing this role, I also completely overhauled the database written in FileMaker, which included correcting some calculations that were previously 
 incorrect and designing a new layout for the database interface.
 
-### 05/12 - 08/12 Technical Intern at Corning incorporated, Corning, NY
+### 05/12 - 08/12 Technical Intern at Corning Incorporated, Corning, NY
 
 This was my second internship with the Ultracapacitor group at Corning, and during my tenure I was tasked with replacing their current separator technology with 
 something that was more robust, cheaper, and more amenable to roll-to-roll processes.  My results were promising, improving the performance of the button cells in addition
 to satisfying all of the previously mentioned constraints.
 
-### 05/11 - 08/11 Technical Intern at Corning incorporated, Corning, NY
+### 05/11 - 08/11 Technical Intern at Corning Incorporated, Corning, NY
 
 My first internship with the Ultracapacitor group at Corning involved learning about the processes associated with the creation of the highly porous activated carbon
 that makes up the electrodes in the ultracapacitor cell.  My task was to tweak the manufacturing process in order to reduce costs and reduce any wastes that were 
