@@ -10,6 +10,9 @@ My research focuses on using data science techniques to try to aid in the solvin
 be described in a detailed blog post in the future.  My first [paper](http://jes.ecsdl.org/content/165/2/A1.abstract?ct) has been published, which is always exciting!
 I'm currently working on two more projects, which will be documented as they progress.
 
+Most of my day-to-day activities in research include coding in Python and Julia, as well as using numerical solution techniques in Maple, Matlab, Fortran, and Julia, and creating interfaces
+between these languages.  My machine learning packages include Sci-Kit Learn and Tensorflow.
+
 ## Hobbies
 
 Whenever I'm not working, I love hiking, photography, playing soccer, lifting, running, tinkering, and prototyping.  As I get time, the projects list will be fleshed out more thoroughly.
