@@ -9,6 +9,6 @@ flexibility, and reliability of physics-based Li-ion Battery models.  The work I
 [Pseudo-Two Dimensional Model](link) and how machine-learning generated surrogate models can be used to increase the predictive
 accuracy and ease of application, which is a stepping stone to using them for control.  
 
-As more work gets published, it will be added.
+My first [paper](http://jes.ecsdl.org/content/165/2/A1.abstract?ct) has been published!
 
 Every blog post can be found archived here, by topic, for convenience.
