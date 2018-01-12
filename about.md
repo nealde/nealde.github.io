@@ -36,7 +36,7 @@ View of Raininer from Silver Peak
 ![pic2](/img/camera/mountains.jpg)
 
 View of Raininer from an airplane
-![pic3](/img/camera/raininer.jpg)
+![pic3](/img/camera/rainier.jpg)
 
 Purple sunset in the Chesepeake Bay
 ![pic4](/img/camera/boat.jpg)
