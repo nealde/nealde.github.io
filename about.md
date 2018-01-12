@@ -31,7 +31,7 @@ As I get time, the projects list will be fleshed out more thoroughly.
 <ul class="nav nav-tabs">
   <li class="active"><a href="#home" data-toggle="tab">Seattle</a></li>
   <li><a href="#silverpeak" data-toggle="tab">Silver Peak</a></li>
-  <li><a href="#rainier" data-toggle="tab">Raininer</a></li>
+  <li><a href="#rainier" data-toggle="tab">Rainier</a></li>
   <li><a href="#cbay" data-toggle="tab">Chesepeake bay</a></li>
 </ul>
 <div id="myTabContent" class="tab-content">
@@ -40,11 +40,11 @@ As I get time, the projects list will be fleshed out more thoroughly.
     <img src="/img/camera/seattle.jpg" alt="Seattle">
   </div>
   <div class="tab-pane fade" id="silverpeak">
-    <p>View of Raininer from Silver Peak</p>
+    <p>View of Rainier from Silver Peak</p>
   	<img src="/img/camera/mountains.jpg" alt="Mountain View">
   </div>
   <div class="tab-pane fade" id="rainier">
-    <p>View of Raininer from an airplane </p>
+    <p>View of Rainier from an airplane </p>
 	<img src="/img/camera/rainier.jpg" alt="Mountain View">
   </div>
   <div class="tab-pane fade" id="cbay">
