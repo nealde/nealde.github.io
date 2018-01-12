@@ -27,6 +27,7 @@ Whenever I'm not working, I love (in no particular order):
 As I get time, the projects list will be fleshed out more thoroughly.
 
 Here are some of my favorite photos I've taken in the past couple of years:
+
 View of the Space Needle from (slightly East of) Kerry Park
 
 ![pic1](/img/camera/seattle.jpg)
