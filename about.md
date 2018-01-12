@@ -35,6 +35,12 @@ View of the Space Needle from (slightly East of) Kerry Park
 View of Raininer from Silver Peak
 ![pic2](/img/camera/mountains.jpg)
 
+View of Raininer from an airplane
+![pic3](/img/camera/raininer.jpg)
+
+Purple sunset in the Chesepeake Bay
+![pic4](/img/camera/boat.jpg)
+
 ## Previous Industry Experience
 
 ### 08/17-09/17 Software Engineer at Faraday Technologies, Dayton, OH
