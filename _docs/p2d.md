@@ -8,4 +8,4 @@ Spotholder for an eventual walkthrough of the P2D model that I'll be doing, hope
 
 
 
-$ \frac{x}{y}$
+$$\frac{x}{y}$$
