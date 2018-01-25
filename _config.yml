@@ -25,6 +25,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-katex
 
 exclude:
   - Gemfile
