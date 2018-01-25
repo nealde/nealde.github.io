@@ -11,7 +11,6 @@ $$v_{rxn} = v_{mt}=\frac{i}{nFA}$$
 # it's still not working
 
 what if I put more markdown later in the sheet?
-$q = EC_d(1-e^{(-t/(R_sC_d))})$
 
 $$q = EC_d(1-e^{(-t/(R_sC_d))})$$
 
