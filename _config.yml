@@ -15,8 +15,8 @@ bootwatch: slate
 
 # Build settings
 markdown: kramdown
-#kramdown:
-#  math_engine: mathjax
+kramdown:
+  math_engine: mathjax
 
 highlighter: rouge
 plugins:
