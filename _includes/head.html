@@ -9,25 +9,6 @@
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
     
-<!--    Katex Script-->
-    <script type="text/javascript">
-    $("script[type='math/tex']").replaceWith(
-      function(){
-        var tex = $(this).text();
-        return "<span class=\"inline-equation\">" + 
-               katex.renderToString(tex) +
-               "</span>";
-    });
-
-    $("script[type='math/tex; mode=display']").replaceWith(
-      function(){
-        var tex = $(this).text();
-        return "<div class=\"equation\">" + 
-               katex.renderToString("\\displaystyle "+tex) +
-               "</div>";
-    });
-
-    </script>
     
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
