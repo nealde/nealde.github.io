@@ -1,20 +1,22 @@
 - title: Research
   docs:
   - overview
-  - p2d
+  - spm
   - paper1
+  - p2d
+  - paper2
 
 - title: Projects
   docs:
   - phhassio
   - ebike
-  - cheatsheet2
+  - laketray
   - 1080ti
+  - phonebatt
 
 - title: Tutorials
   docs:
   - sklearnreg
   - gpages_tutorial
-  - laketray
-  - phonebatt
-  - font-awesome
+
+  # - font-awesome
