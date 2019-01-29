@@ -1,16 +1,16 @@
 ---
-title: Battery.py - A Framework for Performance Battery Models
+title: Ampere - A Framework for High-Performance Battery Models
 permalink: /docs/battery/
 ---
 
 ### The Sci-Kit Learn of Battery Simulation
 
-Battery simulation is hard. The equations are typically very stiff, and often take a large number of nodes to become self-convergent, in particular at high discharge rates.  The goal of [Battery.py](http://github.com/nealde/battery) is to make this a little easier, to let experimentalists worry about what experiments they want to run and let the models take care of themselves.
+Battery simulation is hard. The equations are typically very stiff, and often take a large number of nodes to become self-convergent, in particular at high discharge rates.  The goal of [Ampere](http://github.com/nealde/ampere) is to make this a little easier, to let experimentalists worry about what experiments they want to run and let the models take care of themselves.
 
 The syntax for using the models is very simple, and features a sci-kit learn-like interface:
 ```python
-from battery import SingleParticle
-spm = SingleParticle()
+from ampere import SingleParticleFD, PseudoTwoDimFD
+spm = SingleParticleFD()
 ```
 
 The model is then interacted with as a model, with certain methods like **charge**:

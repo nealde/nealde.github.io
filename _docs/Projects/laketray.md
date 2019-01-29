@@ -69,31 +69,31 @@ Assembly was very annoying because we essentially had to 'replicate' having 2 cu
 <div id="myTabContent" class="tab-content">
   <div class="tab-pane fade active in" id="not_cut">
     <p>The weak, weak laser cutter didn't make it all the way through the wood, especially through knots, so e had to mill away some wood from the back side with a dremel.</p>
-    <img src="/img/lake_tray/not_cut.jpg" alt="Seattle">
+    <img src="/img/lake_tray/not_cut.jpg" alt="not_cut">
   </div>
   <div class="tab-pane fade" id="reassembly">
     <p>It was slow work sanding off the backsides, and required careful reassembly.</p>
-  	<img src="/img/lake_tray/reassembly.jpg" alt="Mountain View">
+  	<img src="/img/lake_tray/reassembly.jpg" alt="Reassembly">
   </div>
   <div class="tab-pane fade" id="progress">
     <p>Despite the frustration, we manage to make progress!</p>
-	<img src="/img/lake_tray/progress.jpg" alt="Mountain View">
+	<img src="/img/lake_tray/progress.jpg" alt="Progress">
   </div>
   <div class="tab-pane fade" id="almost">
     <p>Slowly, we manage to make progress.  In this image, the lake was colored blue by dying the underlying piece of wood, which can only be seen at the lowest point, the lake.</p>
-  	<img src="/img/lake_tray/almost_done.jpg" alt="Mountain View">
+  	<img src="/img/lake_tray/almost_done.jpg" alt="almost done">
   </div>
   <div class="tab-pane fade" id="complete">
     <p>Finally, after hours of annoying gluing, we finish the topographical bit. Now, on to the handles!</p>
-  	<img src="/img/lake_tray/completed.jpg" alt="Mountain View">
+  	<img src="/img/lake_tray/completed.jpg" alt="completed">
   </div>
   <div class="tab-pane fade" id="handle">
     <p>Now is when I really wish I'd had a router.  Instead, I had to cut these handles out AND cut a PERFECTLY STRAIGHT LINE AT THE PERFECT HEIGHT on each of the border pieces.  This is basically impossible, and this part was definitely the most discouraging part of the entire project.</p>
-  	<img src="/img/lake_tray/handle.jpg" alt="Mountain View">
+  	<img src="/img/lake_tray/handle.jpg" alt="handle">
   </div>
   <div class="tab-pane fade" id="finished">
     <p>Eventually, I managed to cut out the handles and make the glass recesses straight enough to fit the piece in.  Boy, that was a lot of work!</p>
-  	<img src="/img/lake_tray/finished.jpg" alt="Mountain View">
+  	<img src="/img/lake_tray/finished.jpg" alt="finished">
   </div>
 </div>
 
