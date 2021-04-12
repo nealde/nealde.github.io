@@ -6,9 +6,14 @@ redirect_from: /docs/index.html
 
 The Single Particle Model (SPM) is a relatively sophisticated physics-based lithium ion battery model.  It incorporates Fick's law of diffusion and Butler-Volmer kinetics, but does not include any electrolyte effects.
 
+Below is a representation of a typical cell - it has a cathode, a separator, and an anode. The cathode and anode regions are the ones relevant to this model, which
+are where lithium is accrued during discharge and charge, respectively.
+
+![typical_cell]({{_site.baseurl}}/img/spm/typical_cell.png)
+
 In practical terms, during charge, a lithium ion deintercalates from the cathode and, upon leaving the surface of the positive electrode particle, is instantly teleported to the surface of the negative electrode particle, where it intercalates and is stored internally.  The concentrations in both the positive and negative electrodes are tracked and the surface area is calculated based upon the assumed particle radius, electrode thickness, and active area per unit volume.  The particles are all assumed to be perfect spheres of uniform size.
 
-![spm]({{ site.baseurl}}/img/spm/spm.png)
+![spm]({{ site.baseurl}}/img/spm/spm_3d.png)
 
 The model can be split into a few different mechanisms:
 
