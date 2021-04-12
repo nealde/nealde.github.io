@@ -44,7 +44,7 @@ $$j = kc_{s,max}c^{0.5}_{e}(1-x_{surf})^{0.5}x_{surf}^{0.5}[exp(\frac{0.5 F}{RT}
 
 $$\eta = \phi(x_{surf})-U$$
 
-For the model (as implemented in [Battery.py](http://github.com/nealde/battery)), the following parameters are available:  
+For the model (as implemented in [Ampere](http://github.com/nealde/ampere)), the following parameters are available:  
 
 | name   | description                                 | default value | Units   |
 |--------|---------------------------------------------|---------------|---------|
