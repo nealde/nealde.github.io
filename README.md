@@ -1,9 +1,4 @@
-# Welcome to the github page for my website!
+# Github Pages
 
-The theme I'm using is called Doc Theme:
-
-# Jekyll Doc Theme
-
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
-
-
+Thanks for checking out the repo for my Github Page. The site currently redirects to my
+personal website, [https://ndawsonelli@.com](https://ndawsonelli@.com).
